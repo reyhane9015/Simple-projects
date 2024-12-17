@@ -34,6 +34,7 @@ function filteredBooksByDate<T extends Book>(books: T[], targetDate: { day: stri
 }
 
 const BookList: React.FC = () => {
+    
     const books: Book[] = [
         { id: 1, title: 'Book 1', author: "author 1", genre: genreEnum.Fiction, publishedDate: { day: "23", month: "3", year: "2023" } },
         { id: 2, title: 'Book 2', author: "author 2", genre: genreEnum.Fiction, publishedDate: { day: "23", month: "3", year: "2023" } },
