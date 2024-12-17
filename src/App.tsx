@@ -7,7 +7,10 @@ import './App.css';
 // import PaymentComponent from "./PaymentComponent";
 // import MathComponent , {MathOperation} from "./MathComponent";
 
-import Example1 from "./Example1";
+// import Example1 from "./Example1";
+// import Example2 from "./Example2";
+import Example3 from "./Example3";
+
 
 // Object Types**
 // const myCar = {
@@ -53,7 +56,11 @@ const App: FC = () => {
       {/* <MathComponent operation={add} />
       <MathComponent operation={subtract} /> */}
 
-      <Example1 />
+      {/* <Example1 /> */}
+
+      {/* <Example2 /> */}
+
+      <Example3 />
 
     </div>
   );
