@@ -5,7 +5,9 @@ import './App.css';
 // import StatusComponent from './StatusComponent';
 // import EmployeeComponent from "./EmployeeComponent";
 // import PaymentComponent from "./PaymentComponent";
-import MathComponent , {MathOperation} from "./MathComponent";
+// import MathComponent , {MathOperation} from "./MathComponent";
+
+import Example1 from "./Example1";
 
 // Object Types**
 // const myCar = {
@@ -33,8 +35,11 @@ import MathComponent , {MathOperation} from "./MathComponent";
 
 
 // Function Types**
-const add : MathOperation = (x,y) => x + y;
-const subtract: MathOperation = (x,y) => x - y;
+// const add : MathOperation = (x,y) => x + y;
+// const subtract: MathOperation = (x,y) => x - y;
+
+
+
 
 
 const App: FC = () => {
@@ -45,8 +50,10 @@ const App: FC = () => {
       {/* <EmployeeComponent employee={employee} /> */}
       {/* <PaymentComponent payment={payment} /> */}
 
-      <MathComponent operation={add} />
-      <MathComponent operation={subtract} />
+      {/* <MathComponent operation={add} />
+      <MathComponent operation={subtract} /> */}
+
+      <Example1 />
 
     </div>
   );
