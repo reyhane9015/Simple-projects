@@ -3,8 +3,8 @@ import './App.css';
 
 // import CarComponet from "./CarComponent";
 // import StatusComponent from './StatusComponent';
-
-import EmployeeComponent from "./EmployeeComponent";
+// import EmployeeComponent from "./EmployeeComponent";
+import PaymentComponent from "./PaymentComponent";
 
 // Object Types**
 // const myCar = {
@@ -20,12 +20,15 @@ import EmployeeComponent from "./EmployeeComponent";
 
 
 // Intersection Types**
-const employee = {
-  name: 'John Doe',
-  age: 30,
-  company: 'Tech Corp',
-  role: 'Software Engineer',
-};
+// const employee = {
+//   name: 'John Doe',
+//   age: 30,
+//   company: 'Tech Corp',
+//   role: 'Software Engineer',
+// };
+
+// Literal Types**
+const payment = 'credit';
 
 
 const App: FC = () => {
@@ -33,7 +36,8 @@ const App: FC = () => {
     <div className="App">
       {/* <CarComponet  car={myCar} /> */}
       {/* <StatusComponent status={status} /> */}
-      <EmployeeComponent employee={employee} />
+      {/* <EmployeeComponent employee={employee} /> */}
+      <PaymentComponent payment={payment} />
     </div>
   );
 }
